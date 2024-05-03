@@ -1,3 +1,3 @@
-function saysomething() {
-    
+function saySomething() {
+    alert("My Name is Peter")
 }
