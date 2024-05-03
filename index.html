@@ -8,8 +8,15 @@
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
 </head>
-<body>
+<script>
+    function changeBgColor(){
+        var color = pageColor.value;
+        body.style.background = color;
+    }
+</script>
+<body id="body">
     <div class="container">
+        <input onchange="changeBgColor()" type="color" id="pageColor">
         <h1 class="pt-5">INTRODUCTION TO JAVASCRIPT</h1>
 
         <!-- <div class="row mt-3">

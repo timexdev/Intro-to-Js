@@ -4,3 +4,9 @@
     color: green;
     font-weight: bolder;
 }
+#pageColor{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border: none;
+}
